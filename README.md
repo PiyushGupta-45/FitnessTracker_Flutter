@@ -5,11 +5,6 @@ A **comprehensive Flutter application** to help users maintain a healthy lifesty
 
 ---
 
-## 📱 Preview
-
-> _Add screenshots or demo GIFs here once available!_
-
----
 
 ## 🛠️ Features (In Progress)
 
@@ -89,6 +84,3 @@ To contribute:
 4. Push to the branch (`git push origin feature-name`)  
 5. Open a Pull Request  
 
----
-
-> _Crafted with 💙 using Flutter_
