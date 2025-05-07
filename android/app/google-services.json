@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243556872843",
+    "project_id": "healthhub-23e0a",
+    "storage_bucket": "healthhub-23e0a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243556872843:android:1fe4e5fe3fe04bab139a8e",
+        "android_client_info": {
+          "package_name": "com.example.fitnessapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKHbsThAHMg-vm7yNuV0Nu0ANkpTnLlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
