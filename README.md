@@ -37,7 +37,7 @@ A **comprehensive Flutter application** to help users maintain a healthy lifesty
         └── posture_analysis_pages/
             ├── ai_posture_analysis.dart
             └── connect_trainer.dart
-##
+bash```
 🚀 Getting Started
 To run this project locally:
 
