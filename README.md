@@ -1,65 +1,89 @@
-Health and Fitness Tracker (In Development) 🚧
+# 🏋️ Health and Fitness Tracker (In Development) 🚧
 
-A comprehensive Flutter application to help users maintain a healthy lifestyle through fitness tracking, posture analysis, and more. Currently under development, several features are still being implemented.
+A **comprehensive Flutter application** to help users maintain a healthy lifestyle through **fitness tracking**, **posture analysis**, and more.  
+> ⚠️ _This app is currently in its initial development phase. Some features may not work as expected._
 
-📱 Preview
+---
 
-Note: The app is in its initial development phase. Some features may not work as expected.
+## 📱 Preview
 
-🛠️ Features (In Progress)
+> _Add screenshots or demo GIFs here once available!_
 
-Personalized Goals: Set and track fitness goals. (In Progress)
+---
 
-Posture Analysis: Real-time posture analysis using the camera. (In Progress)
+## 🛠️ Features (In Progress)
 
-Workout Tracking: Log and monitor workouts. (In Progress)
+- ✅ **Personalized Goals** – Set and track fitness goals.  
+- 📸 **Posture Analysis** – Real-time posture analysis using the camera.  
+- 🏃 **Workout Tracking** – Log and monitor workouts.  
+- 🔢 **BMR Calculator** – Calculate your Basal Metabolic Rate.
 
-BMR Calculator: Calculate Basal Metabolic Rate. (In Progress)
+---
 
-📦 Project Structure
+## 📂 Project Structure
 
+```bash
 /lib
-  └── main.dart
-  └── screens/
-      └── home_screen.dart
-      └── about_screen.dart
-      └── features_screen.dart
-      └── feature_pages/
-          └── bmr_screen.dart
-          └── personalized_goals.dart
-          └── posture_analysis.dart
-          └── track_workout.dart
-          └── posture_analysis_pages/
-              └── ai_posture_analysis.dart
-              └── connect_trainer.dart
+├── main.dart
+└── screens/
+    ├── home_screen.dart
+    ├── about_screen.dart
+    ├── features_screen.dart
+    └── feature_pages/
+        ├── bmr_screen.dart
+        ├── personalized_goals.dart
+        ├── posture_analysis.dart
+        ├── track_workout.dart
+        └── posture_analysis_pages/
+            ├── ai_posture_analysis.dart
+            └── connect_trainer.dart
 
 🚀 Getting Started
+To run this project locally:
 
-Clone the repository:
+# 1. Clone the repository
+git clone https://github.com/PiyushGupta-45/FitnessTracker_Flutter
 
-git clone https://github.com/PiyushGupta-45/FitnessTracker_Flutter.git
-
-Navigate to the project directory:
-
+# 2. Navigate to the project directory
 cd health-fitness-tracker
 
-Install dependencies:
-
+# 3. Install dependencies
 flutter pub get
 
-Run the app:
-
+# 4. Run the app
 flutter run
 
 📅 Roadmap
+<details> <summary>Click to expand the development roadmap</summary>
+ Complete BMR calculator
 
+ Integrate real-time posture analysis using ML
 
+ Add personalized goal setting & tracking
 
+ Workout routine planner & logger
+
+ UI/UX polishing
+
+ Firebase integration for user data
+
+ Testing and deployment
+
+</details>
 🤝 Contributing
+We welcome contributions from the community! 💬
+To contribute:
 
-Contributions are welcome! Fork the repository, create a feature branch, and submit a pull request.
+Fork the repository
+
+Create your feature branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature-name)
+
+Open a Pull Request
 
 📄 License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
