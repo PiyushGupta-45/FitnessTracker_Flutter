@@ -1,16 +1,65 @@
-# fitnesstracker
+Health and Fitness Tracker (In Development) 🚧
 
-A new Flutter project.
+A comprehensive Flutter application to help users maintain a healthy lifestyle through fitness tracking, posture analysis, and more. Currently under development, several features are still being implemented.
 
-## Getting Started
+📱 Preview
 
-This project is a starting point for a Flutter application.
+Note: The app is in its initial development phase. Some features may not work as expected.
 
-A few resources to get you started if this is your first Flutter project:
+🛠️ Features (In Progress)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Personalized Goals: Set and track fitness goals. (In Progress)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Posture Analysis: Real-time posture analysis using the camera. (In Progress)
+
+Workout Tracking: Log and monitor workouts. (In Progress)
+
+BMR Calculator: Calculate Basal Metabolic Rate. (In Progress)
+
+📦 Project Structure
+
+/lib
+  └── main.dart
+  └── screens/
+      └── home_screen.dart
+      └── about_screen.dart
+      └── features_screen.dart
+      └── feature_pages/
+          └── bmr_screen.dart
+          └── personalized_goals.dart
+          └── posture_analysis.dart
+          └── track_workout.dart
+          └── posture_analysis_pages/
+              └── ai_posture_analysis.dart
+              └── connect_trainer.dart
+
+🚀 Getting Started
+
+Clone the repository:
+
+git clone https://github.com/PiyushGupta-45/FitnessTracker_Flutter.git
+
+Navigate to the project directory:
+
+cd health-fitness-tracker
+
+Install dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+📅 Roadmap
+
+
+
+🤝 Contributing
+
+Contributions are welcome! Fork the repository, create a feature branch, and submit a pull request.
+
+📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
